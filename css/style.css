@@ -1,0 +1,292 @@
+body
+{
+	background: gray;
+	margin-top: 0px;
+}
+
+header{
+	background: #af0c0d;
+	display: inline-block;
+	position: fixed;
+	height: 38px;
+	width: 940px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	/*background: #005d74;*/
+}
+
+
+h1{
+	float: left;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 34%;
+	padding-top: 0px;
+	height: 38px;
+}
+
+nav{
+	float: left;
+	margin-top: 0px;
+	width: 100%;
+	background: white;
+	height: 32px;
+	padding-top: 10px;
+	text-align: justify;
+
+
+
+}
+
+nav a{
+	padding: 5px 5px 5px 5px;
+	color: black;
+	text-decoration: none;
+	font-size: 21px;
+	background: #ff9999;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+	transition: font-size 0.5s;
+	/*background: #E4F0FE;*/
+	background: #C0C0C0;
+
+}
+
+nav a:hover{
+	color: #005d74;
+	font-size: 27px;
+
+}
+
+.mycart a
+{
+	float: right;
+	color: white;
+	font-size: 27px;
+	padding-top: -10px;
+	text-decoration: none;
+}
+
+.mycart a:hover
+{
+	color: green;
+	font-size: 30px;
+}
+
+#doorstep
+{
+	width: 940px;
+	padding-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 70px;
+}
+
+.container
+{
+	height: 500px;
+	background-color: white;
+	background-image: url("../img/med.jpg");*/
+	margin-top: -20px;
+	padding-top: 30px;
+	margin-left: 10px;
+	width: 940px;
+	text-align: center;
+	line-height: 90px;
+}
+
+.login
+{
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	margin-top: 68px;
+	background-color: gray;
+	opacity: 0.8;
+}
+
+.login input
+{
+	background-color: orange;
+	width: 500px;
+	height: 50px;
+	background: #f9f9f9;
+	margin-left: 20px;
+	font-size: 30px;
+	
+
+}
+
+#login
+{
+	margin: auto;
+	width: 300px;
+	margin-left: 10px;
+}
+
+.login img
+{
+	width: 40px;
+	height: 40px;
+	padding-top: 15px;
+}
+
+.login input:placeholder
+{
+
+:-ms-input-placeholder { color:#f00; }
+}
+
+#login_img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.login a
+{
+	line-height: 0px;
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+	margin-top: 10px;
+}
+
+article.grid_12{
+	background: #F9F9F9;
+	margin-top: 30px;
+	height: 300px;
+	margin-top: -3px;
+
+}
+
+
+.register,.reg
+{
+	background: #b2b2ff;
+	margin-right: 0px;
+	color: white;
+	margin: auto;
+	text-align: center;
+	
+}
+
+
+div.container_12
+{
+	background-color: white;
+	width: 940px;
+	margin-top: 295px;
+	margin-left: 10px;
+}
+
+
+section
+{
+	height: 280px;
+	margin-top: 20px;
+	width: 50%;
+	text-align: center;
+}
+
+
+.maintain_HR
+{
+	margin-top: 0px;
+	float: left;
+	width: 50%;
+	height: 100%;
+	
+}
+
+.maintain_HR img{
+
+	margin-top: 15%;
+	height: 52%;
+}
+
+.content
+{
+	float: left;
+	height: 10%
+	width: 100%;
+
+}
+
+.content h2
+{
+	font-size: 30px;
+	width: 60%;
+}
+
+.upload_pres
+{
+	background-color: #4caf50;
+	color:white;
+	font-size: 25px;
+	padding: 20px 20px 20px 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	border:none;
+	
+}
+
+/*------------------Footer part css design------------------------------*/
+footer
+{
+	background: #404040;
+	height: 400px;
+}
+
+.newsletter
+{
+	background: #A0A0A0;
+	float: right;
+	width: 880px;
+	height: 80px;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 60px;
+	
+
+}
+.newsletter input
+{
+	box-shadow: 1px 1px 1px #888888;
+	width: 200px;
+	height: 24px;
+	border:none;
+}
+
+.newsletter button
+{
+	height: 23px;
+	background-color: #005d74;
+	border:none;
+}
+
+.links div a
+{
+	color:white;
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: arial;
+	padding-left: 15px;
+}
+
+h4
+{
+	color:white;
+	font-family: arial;
+	padding-left: 12px;
+}
+.links div
+{
+	float:left;
+	width: 235px
+}
+
+
+}
