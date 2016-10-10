@@ -1,23 +1,26 @@
-<!doctype html>
+<!DOCTYPE HTML System>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>OnMed+</title> 
-		<link rel = "stylesheet" href = "css/style.css">
+		<!--google font-->
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<!--960 frmaework-->
+		<link rel = "stylesheet" href = "css/reset.css">
 		<link rel = "stylesheet" href = "css/960_12_col.css">
-
+		<!--specific style sheet-->
+		<link rel = "stylesheet" href = "css/style.css">
 	</head>
-
 	<body class = "container_12">
 		<header>
 			<h1>OnMed+</h1>
-
 			<div class = "mycart">
-				<a href="#">MyCart</a>
+				<a href="#log">MyCart</a>
 			</div>
-
 			<nav>
 				<a href="#">Pharmacy</a>
-				<a href="#">Skin Care</a>
+				<a href="skincare.html">Skin Care</a>
 				<a href="#">Hair Care</a>
 				<a href="#">Personal Care</a>
 				<a href="#">Nutrition</a>
@@ -26,47 +29,23 @@
 				<a href="#">Baby care</a>
 			</nav>
 		</header>
-
 		<main>
 			<img id = "doorstep" src="img/slide3.jpg" alt="doorstep_medicine"/>
-			<!--<article class = "grid_12">
-				<section class = "content">
-					<h2>Problem reading prescription?</h2>
-					<button class = "upload_pres">Upload Prescription</button>
-					<P>This is online medicine shop. You can buy the medicine from here.</P>
-				</section>
-
-				<section class = "maintain_HR">
-					<img src = "img/maintain-health-records.jpg" alt = "maintain-health-records"/>
-				</section>
-			</article>
-
-			<aside class = "register grid_6">
-				<section class= "reg">
-					<img src = "img/services_register.png" alt= "services_register.png"/>
-					<h3>Register</h3>
-					<p>Register your account for more discount</p>
-				</section>
-			</aside>
-
-			<aside class = "register grid_6">
-				<section>
-					<h3>HealthCare</h3>
-				</section>
-			</aside>
-		</main>-->
-		<div class="container">
-			<div class="login">
-				<img src="img/profilepic-default.png" alt="user_img"/><input type="text" id="username" placeholder="Username"/><br>
-				<img src="img/lock-24-128.png" alt="pass_img"/><input type="password" id="password" placeholder="Password"/><br>
+		<div class="container" id="log">
+			<div class="login" >
+				<h3>User Login</h3>
+				<img src="img/profilepic-default.png" alt="user_img"/>
+				<input type="text" id="username" placeholder="Username/Email Id"/><br>
+				<img src="img/lock-24-128.png" alt="pass_img"/>
+				<input type="password" id="password" placeholder="Password"/><br>
 				<input type="submit" id="login" value ="Login"/><br>
 				<a href="pharmacy.html">Login as Guest</a>
 			</div>
 		</div>
 		</main>
-
 		<footer class = "grid_12">
 			<div class="newsletter">
+				<h5 id="NL">News Letter</h5>
 				<input type="text"/>
 				<button id="Subscribe">Subscribe</button>
 			</div>
@@ -88,8 +67,6 @@
 						<a href="#">Watch Our Videos</a>
 						<a href="#">Media Contacts</a>
 				</div>
-
-
 				<div class= "key_categories">
 						<h4>Key Categories</h4>
 						<a href="#">Personal Care</a>
@@ -98,8 +75,6 @@
 						<a href="#">Health Care & Devices</a>
 						<a href="#">Beauty</a>
 				</div>
-
-
 				<div class= "faq">
 						<h4>FAQ's</h4>
 						<a href="#">Shipping Policy</a>
@@ -108,7 +83,6 @@
 						<a href="#">Medicine Delivery Policy</a>
 						<a href="#">Privacy Policy</a>
 				</div>
-				
 			</div>
 		</footer>
 	</body>
